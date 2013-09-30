@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>{{ page.title }}</title>
+        <meta name="viewport" content="width=device-width">
+
+        <!--<link rel="stylesheet" href="/css/main.css">-->
+        <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/bootstrap/css/bootstrap-theme.css">
+        <link rel="stylesheet" href="/css/main.css">
+
+    </head>
+    <body>
+        <div class='container'>
+            <div class="row">
+                <div class="header-top navbar navbar-default col-md-12">
+                    <span class="logo navbar-brand" src="logotype.png">{{ site.name }}</span>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="/centrum">Centrum</a></li>
+                        <li><a href="/zespol">Zespół</a></li>
+                        <li><a href="/specjalnosci">Nasze specjalności</a></li>
+                        <li><a href="/cennik">Cennik</a></li>
+                        <li><a href="/kontakt">Kontakt</a></li>
+                    </ul>
+                </div>
+            </div>
+
+
+            {{ content }}
+
+            <div class="footer row">
+                <div class="col-md-12">
+                    <div class="partners">
+                        <p>Partnerzy</p>
+                        <ul>
+                            <li><a href="#">Projekcje</a></li>
+                            <li><a href="#">Kinoterapia</a></li>
+                            <li><a href="#">Dzielnica Rodzica</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="//code.jquery.com/jquery.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+    </body>
+</html>
