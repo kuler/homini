@@ -58,9 +58,32 @@ body#homini{
 
     .content{
       min-height: 300px;
+
+      .marker{
+        height: 115px;
+        background-image: url("images/markerback.png");
+        background-repeat: repeat-x;
+        padding: 10px 200px 10px 40px;
+        font-size: 1.6em;
+
+        .btn{
+          position: absolute;
+          right: 40px;
+          top: 40px;
+        }
+
+        &:before{
+          content: url("images/marker.png");
+          position: absolute;
+          left: 0px;
+          top: 0px;
+        }
+      }
+
     }
 
     .footer{
+      margin-top: 20px;
       padding-top: 20px;
       padding-bottom: 20px;
       background: #B8B8B8;
