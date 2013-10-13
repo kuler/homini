@@ -6378,6 +6378,7 @@ body#homini {
       background: transparent url("../img/homini.png") center no-repeat;
       width: 245px;
       height: 80px;
+      margin-left: 10px;
       overflow: hidden;
       text-indent: -500px; }
     body#homini > .container div.navbar-default,
@@ -6397,16 +6398,17 @@ body#homini {
         height: 115px;
         background-image: url("../img/markerback.png");
         background-repeat: repeat-x;
-        padding: 10px 200px 10px 40px;
+        padding: 10px 200px 10px 55px;
+        margin: 20px 0px;
         font-size: 1.6em; }
         body#homini > .container .content .marker .btn {
           position: absolute;
-          right: 40px;
+          right: 55px;
           top: 40px; }
         body#homini > .container .content .marker:before {
           content: url("../img/marker.png");
           position: absolute;
-          left: 0px;
+          left: 15px;
           top: 0px; }
     body#homini > .container .footer {
       margin-top: 20px;
@@ -6418,3 +6420,18 @@ body#homini {
 #centrum .main-subject {
   padding: 0px;
   margin: 20px 0px; }
+  #centrum .main-subject img {
+    max-width: 100%; }
+#centrum .secondary-subject h2 {
+  font-size: 1.5em;
+  line-height: 2em;
+  vertical-align: top; }
+  #centrum .secondary-subject h2:before {
+    margin-right: 20px;
+    content: url("../img/secondary-circle.png"); }
+#centrum .secondary-subject:nth-child(even) h2:before {
+  content: url("../img/secondary.png"); }
+#centrum .secondary-subject a.more {
+  display: block;
+  margin-top: 10px;
+  font-style: italic; }

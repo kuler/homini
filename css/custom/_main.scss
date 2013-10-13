@@ -38,6 +38,7 @@ body#homini{
       background: transparent url('../img/homini.png') center no-repeat;
       width: 245px;
       height: 80px;
+      margin-left: 10px;
       overflow: hidden;
       text-indent: -500px;
     }
@@ -63,19 +64,20 @@ body#homini{
         height: 115px;
         background-image: url("../img/markerback.png");
         background-repeat: repeat-x;
-        padding: 10px 200px 10px 40px;
+        padding: 10px 200px 10px 55px;
+        margin: 20px 0px;
         font-size: 1.6em;
 
         .btn{
           position: absolute;
-          right: 40px;
+          right: 55px;
           top: 40px;
         }
 
         &:before{
           content: url("../img/marker.png");
           position: absolute;
-          left: 0px;
+          left: 15px;
           top: 0px;
         }
       }
