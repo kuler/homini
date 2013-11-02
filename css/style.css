@@ -6435,3 +6435,8 @@ body#homini {
   display: block;
   margin-top: 10px;
   font-style: italic; }
+
+#zespol .profile strong {
+  font-size: 1.5em;
+  line-height: 2em;
+  vertical-align: top; }
