@@ -21,18 +21,15 @@
 
 
 body#homini{
-  background-color: #E8E8E8;
   background-repeat: repeat-y;
   background-position: center;
 
   > .container{
-    background: #ffffff;
-    color: #1B1B1B;
+    background: $homini-text-background-color;
 
     > .row {
       padding: 0px 20px;
     }
-
 
     .logo{
       background: transparent url('../img/homini.png') center no-repeat;
@@ -47,7 +44,7 @@ body#homini{
     div.navbar{
       background-image: none;
       border-style: none;
-      background-color: #FFFFFF;
+
       box-shadow: none;
       -webkit-box-shadow: none;
       border-radius: 0px;
@@ -66,7 +63,11 @@ body#homini{
         background-repeat: repeat-x;
         padding: 10px 200px 10px 55px;
         margin: 20px 0px;
-        font-size: 1.6em;
+
+        font-size: 1.1em;
+        @media (min-width: $screen-md){
+          font-size: 1.6em;
+        }
 
         .btn{
           position: absolute;

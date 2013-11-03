@@ -27,8 +27,8 @@ $brand-info:            #5bc0de !default;
 // Scaffolding
 // -------------------------
 
-$body-bg:               #fff !default;
-$text-color:            $gray-dark !default;
+$body-bg:               $homini-background-color;
+$text-color:            $homini-text-color;
 
 // Links
 // -------------------------
@@ -239,7 +239,7 @@ $grid-float-breakpoint:     $screen-tablet !default;
 $navbar-height:                    50px !default;
 $navbar-margin-bottom:             $line-height-computed !default;
 $navbar-default-color:             #777 !default;
-$navbar-default-bg:                #f8f8f8 !default;
+$navbar-default-bg:                $homini-text-background-color;
 $navbar-default-border:            darken($navbar-default-bg, 6.5%) !default;
 $navbar-border-radius:             $border-radius-base !default;
 $navbar-padding-horizontal:        floor($grid-gutter-width / 2) !default;

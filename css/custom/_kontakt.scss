@@ -1,0 +1,19 @@
+#kontakt{
+
+  .address{
+    strong{
+      font-size: 1.1em;
+      line-height: 1.2em;
+      vertical-align: top;
+    }
+
+    font-size: 1.4em;
+    @media(max-width: $screen-sm-max){
+      margin-bottom: 40px;
+    }
+  }
+
+  #map-canvas{
+    height: 400px;
+  }
+}

@@ -249,8 +249,8 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857;
-  color: #333333;
-  background-color: white; }
+  color: gray;
+  background-color: #e8e8e8; }
 
 input,
 button,
@@ -291,7 +291,7 @@ img {
 .img-thumbnail, .thumbnail {
   padding: 4px;
   line-height: 1.42857;
-  background-color: white;
+  background-color: #e8e8e8;
   border: 1px solid #dddddd;
   border-radius: 0px;
   -webkit-transition: all 0.2s ease-in-out;
@@ -1187,7 +1187,7 @@ th {
   .table tbody + tbody {
     border-top: 2px solid #dddddd; }
   .table .table {
-    background-color: white; }
+    background-color: #e8e8e8; }
 
 .table-condensed thead > tr > th,
 .table-condensed thead > tr > td,
@@ -1577,7 +1577,7 @@ textarea.input-lg, .input-group-lg > textarea.form-control,
   display: block;
   margin-top: 5px;
   margin-bottom: 10px;
-  color: #737373; }
+  color: silver; }
 
 @media (min-width: 768px) {
   .form-inline .form-group, .navbar-form .form-group {
@@ -2883,7 +2883,7 @@ input[type="button"].btn-block {
         border-color: #eeeeee #eeeeee #dddddd; }
     .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
       color: #555555;
-      background-color: white;
+      background-color: #e8e8e8;
       border: 1px solid #dddddd;
       border-bottom-color: transparent;
       cursor: default; }
@@ -2921,7 +2921,7 @@ input[type="button"].btn-block {
     border-bottom: 1px solid #dddddd;
     margin-right: 0; }
   .nav-tabs-justified > .active > a, .nav-tabs.nav-justified > .active > a {
-    border-bottom-color: white; }
+    border-bottom-color: #e8e8e8; }
 
 .tabbable:before, .tabbable:after {
   content: " ";
@@ -3173,8 +3173,8 @@ input[type="button"].btn-block {
       margin-right: 15px; } }
 
 .navbar-default {
-  background-color: #f8f8f8;
-  border-color: #e7e7e7; }
+  background-color: white;
+  border-color: #eeeeee; }
   .navbar-default .navbar-brand {
     color: #777777; }
     .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
@@ -3189,7 +3189,7 @@ input[type="button"].btn-block {
       background-color: transparent; }
   .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
     color: #555555;
-    background-color: #e7e7e7; }
+    background-color: #eeeeee; }
   .navbar-default .navbar-nav > .disabled > a, .navbar-default .navbar-nav > .disabled > a:hover, .navbar-default .navbar-nav > .disabled > a:focus {
     color: #cccccc;
     background-color: transparent; }
@@ -3201,13 +3201,13 @@ input[type="button"].btn-block {
       background-color: #cccccc; }
   .navbar-default .navbar-collapse,
   .navbar-default .navbar-form {
-    border-color: #e6e6e6; }
+    border-color: #ededed; }
   .navbar-default .navbar-nav > .dropdown > a:hover .caret,
   .navbar-default .navbar-nav > .dropdown > a:focus .caret {
     border-top-color: #333333;
     border-bottom-color: #333333; }
   .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
-    background-color: #e7e7e7;
+    background-color: #eeeeee;
     color: #555555; }
     .navbar-default .navbar-nav > .open > a .caret, .navbar-default .navbar-nav > .open > a:hover .caret, .navbar-default .navbar-nav > .open > a:focus .caret {
       border-top-color: #555555;
@@ -3223,7 +3223,7 @@ input[type="button"].btn-block {
         background-color: transparent; }
     .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
       color: #555555;
-      background-color: #e7e7e7; }
+      background-color: #eeeeee; }
     .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a, .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:focus {
       color: #cccccc;
       background-color: transparent; } }
@@ -3544,7 +3544,7 @@ a.thumbnail:focus {
 
 .thumbnail .caption {
   padding: 9px;
-  color: #333333; }
+  color: gray; }
 
 .alert {
   padding: 15px;
@@ -6335,19 +6335,6 @@ td.visible-print {
   th.hidden-print,
   td.hidden-print {
     display: none !important; } }
-/*
-
-Contents
-================================
-
-1. Imports
-2. Navigation
-3. Pages
-4. Shared Styles
-
-================================
-
-*/
 /*****************************************************************************/
 /*
 /* Common
@@ -6366,12 +6353,10 @@ Contents
   body {
     background-image: url("../img/bodyback-1170px.png"); } }
 body#homini {
-  background-color: #E8E8E8;
   background-repeat: repeat-y;
   background-position: center; }
   body#homini > .container {
-    background: #ffffff;
-    color: #1B1B1B; }
+    background: white; }
     body#homini > .container > .row {
       padding: 0px 20px; }
     body#homini > .container .logo {
@@ -6385,7 +6370,6 @@ body#homini {
     body#homini > .container div.navbar {
       background-image: none;
       border-style: none;
-      background-color: #FFFFFF;
       box-shadow: none;
       -webkit-box-shadow: none;
       border-radius: 0px;
@@ -6400,7 +6384,10 @@ body#homini {
         background-repeat: repeat-x;
         padding: 10px 200px 10px 55px;
         margin: 20px 0px;
-        font-size: 1.6em; }
+        font-size: 1.1em; }
+        @media (min-width: 992px) {
+          body#homini > .container .content .marker {
+            font-size: 1.6em; } }
         body#homini > .container .content .marker .btn {
           position: absolute;
           right: 55px;
@@ -6440,3 +6427,15 @@ body#homini {
   font-size: 1.5em;
   line-height: 2em;
   vertical-align: top; }
+
+#kontakt .address {
+  font-size: 1.4em; }
+  #kontakt .address strong {
+    font-size: 1.1em;
+    line-height: 1.2em;
+    vertical-align: top; }
+  @media (max-width: 991px) {
+    #kontakt .address {
+      margin-bottom: 40px; } }
+#kontakt #map-canvas {
+  height: 400px; }

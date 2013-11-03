@@ -1,4 +1,63 @@
 ---
 layout: default
 ---
-<strong>TODO: insert content</strong>
+
+<!--TODO Kuler: move this scripts from here!-->
+<script type="text/javascript"
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC3oILpVVu-14dRExp-06OSSIwlRVsgXmU&sensor=false">
+</script>
+<script type="text/javascript">
+    function initialize() {
+        var mapOptions = {
+            center: new google.maps.LatLng(52.217522638643786, 21.006093233299204),
+            zoom: 17,
+            mapTypeId: google.maps.MapTypeId.ROADMAP
+        };
+        var map = new google.maps.Map(document.getElementById("map-canvas"),
+                mapOptions);
+    }
+    google.maps.event.addDomListener(window, 'load', initialize);
+
+
+
+    function spamfreemail(){
+        var
+                dom='&#x63;&#x65;&#x6E;&#x74;&#x72;&#x75;&#x6D;&#x68;&#x6F;&#x6D;&#x69;&#x6E;&#x69;.&#x70;&#x6C;',
+                display='&#x6B;&#x6F;&#x6E;&#x74;&#x61;&#x6B;&#x74;&#x40;&#x63;&#x65;&#x6E;&#x74;&#x72;&#x75;&#x6D;&#x68;&#x6F;&#x6D;&#x69;&#x6E;&#x69;.&#x70;&#x6C;',
+                x40='&#x40;',
+                part1='&#x6D;&#x61;&#x69;&#x6C;&#x74;&#x6F;:',
+                name='&#x6B;&#x6F;&#x6E;&#x74;&#x61;&#x6B;&#x74;';
+        stuff='';
+        document.write('<a title="'+display+'" href="'+part1+name+x40+dom+stuff+'">'+display+'<\/a>');
+    }
+</script>
+
+
+<div id="kontakt" class="container">
+    <div class='row'>
+        <div class='col-md-12'>
+            <div class="marker">
+                <!--TODO: Marker i link na stronie kontakt-->
+                <strong>Homini jest w Centrum</strong>, dzięki temu możesz do nas szybko dotrzeć metrem, autobusem lub tramwajem. Pracujemy również po południu, dzięki czemu możesz przyjść do nas po pracy.
+                <a href='{{ site.baseurl }}/specjalnosci'><span class='btn btn-default'>Zadzwoń do nas</span></a>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="address col-md-4 col-md-push-8 col-xs-12">
+            <strong>Centrum Psychologiczne Homini<br/>Sp. z o. o.</strong>
+            <hr/>
+            <!--TODO: Poprawny adres z kodem pocztowym-->
+            ul. Lekarska 3 m.2<br/>
+            00-000 Warszawa
+            <!--TODO: NIP?-->
+            <hr/>
+            <!--TODO: Poprawny telefon/telefony-->
+            Telefon: +48 22 000 00 00<br/>
+            Email: <script>spamfreemail()</script>
+
+        </div>
+        <div class="col-md-8 col-md-pull-4 col-xs-12" id="map-canvas"></div>
+    </div>
+</div>
+
