@@ -6382,27 +6382,47 @@ body#homini {
         height: 115px;
         background-image: url("../img/markerback.png");
         background-repeat: repeat-x;
-        padding: 10px 200px 10px 55px;
+        padding: 10px 10px 10px 55px;
         margin: 20px 0px;
+        position: relative;
         font-size: 1.1em; }
         @media (min-width: 992px) {
           body#homini > .container .content .marker {
             font-size: 1.6em; } }
         body#homini > .container .content .marker .btn {
-          position: absolute;
-          right: 55px;
-          top: 40px; }
+          -webkit-transition: all 200ms;
+          transition: all 200ms;
+          float: right;
+          margin: 30px 20px; }
         body#homini > .container .content .marker:before {
           content: url("../img/marker.png");
           position: absolute;
-          left: 15px;
+          left: 0px;
           top: 0px; }
+        body#homini > .container .content .marker.marker-small {
+          height: 60px;
+          background-image: url("../img/markerback_small.png");
+          font-size: 1.1em;
+          padding-left: 25px; }
+          body#homini > .container .content .marker.marker-small:before {
+            content: url("../img/marker_small.png");
+            width: 15px;
+            height: 59px; }
     body#homini > .container .footer {
       margin-top: 20px;
       padding-top: 20px;
       padding-bottom: 20px;
       background: #B8B8B8;
       color: #ffffff; }
+      body#homini > .container .footer .partners ul {
+        list-style: none;
+        padding: 0px; }
+        body#homini > .container .footer .partners ul li {
+          float: left;
+          margin: 0px 20px; }
+          body#homini > .container .footer .partners ul li img {
+            max-height: 80px;
+            width: auto; }
 
 #centrum .main-subject {
   padding: 0px;
@@ -6422,6 +6442,11 @@ body#homini {
   display: block;
   margin-top: 10px;
   font-style: italic; }
+
+#specjalnosci .marker-small {
+  font-weight: bold; }
+#specjalnosci ul {
+  margin-bottom: 50px; }
 
 #zespol .profile strong {
   font-size: 1.5em;
