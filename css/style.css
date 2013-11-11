@@ -6366,6 +6366,11 @@ body#homini {
       margin-left: 10px;
       overflow: hidden;
       text-indent: -500px; }
+      @media (max-width: 767px) {
+        body#homini > .container .logo {
+          background-size: 122px 40px;
+          width: 122px;
+          height: 40px; } }
     body#homini > .container div.navbar-default,
     body#homini > .container div.navbar {
       background-image: none;
@@ -6376,6 +6381,8 @@ body#homini {
       -webkit-border-radius: 0px;
       margin-bottom: 0px;
       padding: 10px 20px; }
+    body#homini > .container ul.navbar-collapse {
+      text-align: right; }
     body#homini > .container .content {
       min-height: 300px; }
       body#homini > .container .content .marker {
@@ -6386,12 +6393,15 @@ body#homini {
         margin: 20px 0px;
         position: relative;
         font-size: 1.1em; }
+        @media (max-width: 767px) {
+          body#homini > .container .content .marker {
+            display: none; } }
         @media (min-width: 992px) {
           body#homini > .container .content .marker {
             font-size: 1.6em; } }
         body#homini > .container .content .marker .btn {
-          -webkit-transition: all 200ms;
-          transition: all 200ms;
+          -webkit-transition: all 400ms;
+          transition: all 400ms;
           float: right;
           margin: 30px 20px; }
         body#homini > .container .content .marker:before {
