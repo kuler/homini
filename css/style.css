@@ -6383,6 +6383,8 @@ body#homini {
       padding: 10px 20px; }
     body#homini > .container ul.navbar-collapse {
       text-align: right; }
+    body#homini > .container #nav-main {
+      margin-top: 25px; }
     body#homini > .container .content {
       min-height: 300px; }
       body#homini > .container .content .marker {
@@ -6392,6 +6394,7 @@ body#homini {
         padding: 10px 10px 10px 55px;
         margin: 20px 0px;
         position: relative;
+        display: table;
         font-size: 1.1em; }
         @media (max-width: 767px) {
           body#homini > .container .content .marker {
@@ -6399,6 +6402,9 @@ body#homini {
         @media (min-width: 992px) {
           body#homini > .container .content .marker {
             font-size: 1.6em; } }
+        body#homini > .container .content .marker p {
+          display: table-cell;
+          vertical-align: middle; }
         body#homini > .container .content .marker .btn {
           -webkit-transition: all 400ms;
           transition: all 400ms;
@@ -6413,7 +6419,8 @@ body#homini {
           height: 60px;
           background-image: url("../img/markerback_small.png");
           font-size: 1.1em;
-          padding-left: 25px; }
+          padding-left: 25px;
+          width: 100%; }
           body#homini > .container .content .marker.marker-small:before {
             content: url("../img/marker_small.png");
             width: 15px;
