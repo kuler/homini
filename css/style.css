@@ -6359,6 +6359,10 @@ body#homini {
     background: white; }
     body#homini > .container > .row {
       padding: 0px 20px; }
+    body#homini > .container .twitter-follow-button {
+      position: absolute;
+      right: 30px;
+      top: 10px; }
     body#homini > .container .logo {
       background: transparent url("../img/homini.png") center no-repeat;
       width: 245px;
@@ -6428,6 +6432,13 @@ body#homini {
       body#homini > .container .content .more {
         float: right;
         font-style: italic; }
+      body#homini > .container .content p {
+        text-align: justify; }
+      body#homini > .container .content a.wiki {
+        background-image: url("../img/ext-link.png");
+        background-position: center right;
+        background-repeat: no-repeat;
+        padding-right: 20px; }
     body#homini > .container .footer {
       margin-top: 20px;
       padding-top: 20px;
@@ -6509,3 +6520,5 @@ body#homini {
     line-height: 1em;
     float: left;
     margin-right: 5px; }
+  .czytelnia img {
+    margin: 0px auto 20px auto; }

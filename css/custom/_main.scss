@@ -31,6 +31,12 @@ body#homini{
       padding: 0px 20px;
     }
 
+    .twitter-follow-button{
+      position: absolute;
+      right: 30px;
+      top: 10px;
+    }
+
     //logotype should be much smaller in extra small devices
     .logo{
       background: transparent url('../img/homini.png') center no-repeat;
@@ -130,6 +136,17 @@ body#homini{
         font-style: italic;
       }
 
+      p{
+        text-align: justify;
+      }
+
+      a.wiki {
+        background-image: url('../img/ext-link.png');
+        background-position: center right;
+        background-repeat: no-repeat;
+        padding-right: 20px;
+
+      }
     }
 
     .footer{
