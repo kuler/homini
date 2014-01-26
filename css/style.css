@@ -6425,6 +6425,9 @@ body#homini {
             content: url("../img/marker_small.png");
             width: 15px;
             height: 59px; }
+      body#homini > .container .content .more {
+        float: right;
+        font-style: italic; }
     body#homini > .container .footer {
       margin-top: 20px;
       padding-top: 20px;
@@ -6484,3 +6487,25 @@ body#homini {
 #kontakt #map-canvas {
   height: 400px;
   border: solid 1px gray; }
+
+.czytelnia {
+  text-align: justify; }
+  .czytelnia h2 {
+    font-size: 2.2em;
+    font-weight: bold; }
+  .czytelnia h3 {
+    font-size: 1.2em;
+    font-weight: bold; }
+  .czytelnia h4 {
+    font-size: 1.0em;
+    font-weight: bold; }
+  .czytelnia .author {
+    color: #808080;
+    font-style: italic;
+    margin: 20px 0px; }
+  .czytelnia p:first-of-type:first-letter,
+  .czytelnia h3 + p:first-letter {
+    font-size: 2.7em;
+    line-height: 1em;
+    float: left;
+    margin-right: 5px; }
